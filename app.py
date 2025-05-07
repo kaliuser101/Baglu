@@ -13,7 +13,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(RESULT_FOLDER, exist_ok=True)
 
 # Load YOLO model
-model = YOLO("yolov8m.pt")
+model = YOLO("yolov8n.pt")
 print("App started and model loaded")
 
 @app.route('/')
